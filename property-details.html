@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real Estate - Find Your Dream Home</title>
+    <title>Property Details</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
         <nav>
             <div class="logo">DreamNest</div>
@@ -18,80 +18,33 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            </nav>
-            <a href="#" class="cta">Get in Touch</a>
-        
+        </nav>
+        <a href="mailto:sardarasadnazir786@gmail.com" class="cta"></a>Get in Touch</a>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="property-hero" class="hero">
         <div class="hero-content">
-        <h1>Find Your Dream Home Today</h1>
-        <p>Exclusive Properties for Modern Living</p>
-        <a href="properties.html" class="btn">Browse Listings</a>
+            <h1 id="property-title">Property Title</h1>
         </div>
     </section>
     
-    <section class="search-filter">
-        <form>
-            <select name="property-type">
-                <option value="">Property Type</option>
-                <option value="house">House</option>
-                <option value="apartment">Apartment</option>
-                <option value="villa">Villa</option>
-            </select>
-    
-            <select name="location">
-                <option value="">Location</option>
-                <option value="new-york">New York</option>
-                <option value="los-angeles">Los Angeles</option>
-                <option value="chicago">Chicago</option>
-            </select>
-    
-            <select name="price-range">
-                <option value="">Price Range</option>
-                <option value="0-100k">$0 - $100K</option>
-                <option value="100k-300k">$100K - $300K</option>
-                <option value="300k+">$300K+</option>
-            </select>
-    
-            <button type="submit">Search</button>
-        </form>
-    </section>
-    <section class="featured-properties">
-        <h2>Featured Properties</h2>
-        <div class="property-list">
-            <div class="property-card">
-                <img src="images/property1.jpg" alt="Luxury Villa">
-                <h3>Luxury Villa in California</h3>
-                <p>Price: $500,000</p>
-                <p>Location: Los Angeles, CA</p>
-                <button>View Details</button>
-            </div>
-    
-            <div class="property-card">
-                <img src="images/property2.jpg" alt="Modern Apartment">
-                <h3>Modern Apartment in New York</h3>
-                <p>Price: $350,000</p>
-                <p>Location: New York, NY</p>
-                <button>View Details</button>
-            </div>
-    
-            <div class="property-card">
-                <img src="images/property3.jpg" alt="Beach House">
-                <h3>Beach House in Miami</h3>
-                <p>Price: $700,000</p>
-                <p>Location: Miami, FL</p>
-                <button>View Details</button>
-            </div>
+    <!-- Property Details Section -->
+    <section class="property-details">
+        <div class="property-image">
+            <img id="property-image" src="" alt="Property Image">
+        </div>
+        <div class="property-info">
+            <h2 id="property-price">Price: $0</h2>
+            <p id="property-description">Description will be loaded here...</p>
         </div>
     </section>
-    
-    
+
     <!-- Footer -->
     <footer>
-        <p>© 2025 Real Estate landing-page by AsadNazir-Dev All Rights Reserved.</p>
+        <p>© 2025 DreamNest. All Rights Reserved.</p>
     </footer>
 
+    <script src="js/script.js"></script> <!-- Link to JavaScript File -->
 </body>
 </html>
