@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +52,7 @@ header {
 
 /* Hero Section */
 .hero {
-    background: url('../images/hero-bg.jpg') center/cover no-repeat;
+    background: url('images/hero-bg.jpg') center/cover no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -250,7 +250,7 @@ footer {
 }
 /* Hero Section for Properties Page */
 .properties-hero {
-    background: url('../images/properties-hero.jpg') center/cover no-repeat;
+    background: url('images/properties-hero.jpg') center/cover no-repeat;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -269,7 +269,7 @@ footer {
 }
 /* About Page Hero */
 .about .hero {
-    background: url('../images/about-hero.jpg') center/cover no-repeat;
+    background: url('images/about-hero.jpg') center/cover no-repeat;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -347,7 +347,7 @@ footer {
 
 /* Hero Section */
 .contact-hero {
-    background: url('../images/contact-bg.jpg') center/cover no-repeat;
+    background: url('images/contact-bg.jpg') center/cover no-repeat;
     height: 50vh;
     display: flex;
     align-items: center;
